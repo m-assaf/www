@@ -44,19 +44,20 @@
 
 	
 	<!-- ************** Adding Icons and Splash Screens **************  -->
+	<!--
 	<preference name="splashscreen" value="splash" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="splashScreenDelay" value="7000" />
 	<preference name="show-splash-screen-spinner" value="false" />
+	-->
 	
 	
-	<!--
 	<gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
 	<preference name="AutoHideSplashScreen" value="false" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="FadeSplashScreen" value="true" />
-	<preference name="SplashScreenDelay" value="1000" />
-	-->
+	<preference name="SplashScreenDelay" value="5000" />
+	
 	
 	
 	<!-- NOTE: <.....  gap:density="ldpi" />  ===>>> WORK BUT IS DEPRECATED -->
