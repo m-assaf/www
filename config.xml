@@ -13,9 +13,9 @@
     <!-- section on this page http://developer.android.com/tools/publishing/versioning.html -->
     <!-- for more information regarding the use and purpose of the versionCode attribute 	-->
 	
-    <name>StatusBar Testing</name>
+    <name>PhoneGap</name>
     <description>
-		Testing iOS Status Bar
+		workshop
     </description>
     <author email="mahmoud.assaf@fluance.ch" href="http://cordova.io">
         Mahmoud Assaf
