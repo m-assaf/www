@@ -53,7 +53,7 @@
 	
 	
 	<gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" height="960" />
-	<preference name="AutoHideSplashScreen" value="false" />
+	<!-- <preference name="AutoHideSplashScreen" value="false" /> -->
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="FadeSplashScreen" value="true" />
 	<preference name="SplashScreenDelay" value="5000" />
