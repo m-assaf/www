@@ -13,9 +13,9 @@
     <!-- section on this page http://developer.android.com/tools/publishing/versioning.html -->
     <!-- for more information regarding the use and purpose of the versionCode attribute 	-->
 	
-    <name>PhoneGap</name>
+    <name>fluance</name>
     <description>
-		workshop
+		PhoneGap workshop project
     </description>
     <author email="mahmoud.assaf@fluance.ch" href="http://cordova.io">
         Mahmoud Assaf
