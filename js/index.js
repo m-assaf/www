@@ -26,6 +26,19 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
+	
+	
+		StatusBar.overlaysWebView( false );
+		StatusBar.backgroundColorByHexString('#ffffff');
+		StatusBar.styleDefault();
+	
+	
+			setTimeout(function() {
+			navigator.splashscreen.hide();
+		}, 7000);
+
+	
+	
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
