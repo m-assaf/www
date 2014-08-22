@@ -45,7 +45,7 @@
 	
 	<!-- ************** Adding Icons and Splash Screens **************  -->
 	<preference name="splashscreen" value="splash" />
-	<preference name="splashScreenDelay" value="5000" />
+	<preference name="splashScreenDelay" value="7000" />
 	<preference name="show-splash-screen-spinner" value="false" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	
