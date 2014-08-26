@@ -33,7 +33,6 @@
 	-->
 	
 	<!-- iOS Status Bar => status bar black and words colors in white -->
-	<!--
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
 	<false/>
@@ -41,7 +40,7 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 	<false/>
 	</gap:config-file>
-	-->
+	
 
 	
 	<!-- ************** Adding Icons and Splash Screens **************  -->
