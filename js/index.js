@@ -21,6 +21,12 @@ var app = {
     initialize: function() {
         this.bindEvents();
     },
+
+    setTimeout(function() {
+            navigator.splashscreen.hide();
+    }, 5000);
+
+
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
@@ -64,7 +70,7 @@ var app = {
 
 
 
-        
+
 
 
         app.receivedEvent('deviceready');
