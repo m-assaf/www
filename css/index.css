@@ -29,7 +29,8 @@ body {
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
 	
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a7cfdf), color-stop(100%, #23538a));
+	
+	
 	
 	/*
     background-image:-webkit-gradient(
