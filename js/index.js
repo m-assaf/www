@@ -33,9 +33,9 @@ var app = {
 		StatusBar.styleDefault();
 	
 	
-			setTimeout(function() {
-			navigator.splashscreen.hide();
-		}, 7000);
+			//setTimeout(function() {
+			//navigator.splashscreen.hide();
+			//}, 7000);
 
 	
 	
