@@ -64,7 +64,7 @@ var app = {
 
 
 
-
+        navigator.splashscreen.hide();
 
 
         app.receivedEvent('deviceready');
