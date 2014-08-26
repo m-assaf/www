@@ -28,9 +28,9 @@ var app = {
     bindEvents: function() {
 	
 	
-		StatusBar.overlaysWebView( false );
-		StatusBar.backgroundColorByHexString('#ffffff');
-		StatusBar.styleDefault();
+		//StatusBar.overlaysWebView( false );
+		//StatusBar.backgroundColorByHexString('#ffffff');
+		//StatusBar.styleDefault();
 	
 	
 			//setTimeout(function() {
