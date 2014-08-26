@@ -31,7 +31,7 @@
         <!--<meta name="msapplication-tap-highlight" content="no" /> -->
         <title>Hello World</title>
 
-<!--
+
  <script type="text/javascript" charset="utf-8">
 
             // Wait for device API libraries to load
@@ -41,11 +41,16 @@
             // device APIs are available
             //
             function onDeviceReady() {
-                navigator.splashscreen.show();
+                //navigator.splashscreen.show();
+                setTimeout(function() {
+                     navigator.splashscreen.hide();
+                }, 1000);
+
+
             }
             
         </script>
-        -->
+      
 
     </head>
     <body>
