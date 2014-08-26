@@ -24,7 +24,7 @@ var app = {
 
     setTimeout(function() {
             navigator.splashscreen.hide();
-    }, 5000);
+    }, 10000);
 
 
     // Bind Event Listeners
