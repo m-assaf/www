@@ -30,6 +30,23 @@
 		<!-- Here's how to disable the annoying tap highlighting thing in Windows phones, and iOS -->
         <!--<meta name="msapplication-tap-highlight" content="no" /> -->
         <title>Hello World</title>
+
+
+ <script type="text/javascript" charset="utf-8">
+
+            // Wait for device API libraries to load
+            //
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            // device APIs are available
+            //
+            function onDeviceReady() {
+                navigator.splashscreen.show();
+            }
+
+        </script>
+
+        
     </head>
     <body>
 		<div>
@@ -52,19 +69,7 @@
         </script>
 
 
-        <script type="text/javascript" charset="utf-8">
-
-            // Wait for device API libraries to load
-            //
-            document.addEventListener("deviceready", onDeviceReady, false);
-
-            // device APIs are available
-            //
-            function onDeviceReady() {
-                navigator.splashscreen.show();
-            }
-
-        </script>
+       
 
 
 
