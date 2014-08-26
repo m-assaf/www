@@ -45,12 +45,17 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+
+        setTimeout(function() {
+            navigator.splashscreen.hide();
+        }, 5000);
+
+
+
+
         app.receivedEvent('deviceready');
 
-    setTimeout(function() {
-        navigator.splashscreen.hide();
-    }, 1000);
-
+    
 
     },
     // Update DOM on a Received Event
