@@ -49,7 +49,7 @@ var app = {
 
     setTimeout(function() {
         navigator.splashscreen.hide();
-    }, 7000);
+    }, 1000);
 
 
     },
