@@ -27,11 +27,12 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
 	
-setTimeout(function() {
+    setTimeout(function() {
             navigator.splashscreen.hide();
         }, 5000);
-    
 
+
+  
 		/*
 		StatusBar.overlaysWebView( false );
 		StatusBar.backgroundColorByHexString('#ffffff');
@@ -45,7 +46,7 @@ setTimeout(function() {
 		   
         document.addEventListener('deviceready', this.onDeviceReady, false);
 
-        alert('rrrrrrrrrrrrrrrrrrrrrrrr');
+        
 
     },
     // deviceready Event Handler
@@ -54,7 +55,9 @@ setTimeout(function() {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 
-        
+        if (parseFloat(window.device.version) >= 7.0) {
+            document.body.style.marginTop = "200px";
+        }
 
 
 
