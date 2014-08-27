@@ -34,12 +34,12 @@ var app = {
     bindEvents: function() {
 	
         
-   
+    /*
 
         setTimeout(function() {
             navigator.splashscreen.hide();
         }, 9000);
-
+        */
   
 		/*
 		StatusBar.overlaysWebView( false );
@@ -68,7 +68,9 @@ var app = {
         //     document.body.style.marginTop = "200px";
         // }
 
-
+       setTimeout(function() {
+                     navigator.splashscreen.hide();
+                }, 10000);
 
 
 
