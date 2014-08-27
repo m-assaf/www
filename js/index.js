@@ -68,14 +68,16 @@ var app = {
         //     document.body.style.marginTop = "200px";
         // }
 
-       setTimeout(function() {
-                     navigator.splashscreen.hide();
-                }, 10000);
+       
 
 
 
 
         app.receivedEvent('deviceready');
+
+setTimeout(function() {
+                     navigator.splashscreen.hide();
+                }, 10000);
 
     
 
