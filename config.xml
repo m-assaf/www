@@ -63,10 +63,11 @@
 	<!-- <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" height="960" /> -->
 
 
+	<!--
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="10000" />
-
+	-->
 	
 
 	<!--<preference name="auto-hide-splash-screen" value="false" />-->

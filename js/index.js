@@ -22,9 +22,7 @@ var app = {
         this.bindEvents();
     },
 
-    setTimeout(function() {
-            navigator.splashscreen.hide();
-    }, 10000);
+    
 
 
     // Bind Event Listeners
@@ -32,13 +30,13 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
 
-    /*
+    
     bindEvents: function() {
 	
-    setTimeout(function() {
-            navigator.splashscreen.hide();
-        }, 5000);
-    */
+        setTimeout(function() {
+                navigator.splashscreen.hide();
+            }, 13000);
+   
 
   
 		/*
