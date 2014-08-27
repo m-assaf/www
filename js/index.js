@@ -33,10 +33,12 @@ var app = {
     
     bindEvents: function() {
 	
-        setTimeout(function() {
-                navigator.splashscreen.hide();
-            }, 13000);
+        
    
+
+        setTimeout(function() {
+            navigator.splashscreen.hide();
+        }, 9000);
 
   
 		/*
