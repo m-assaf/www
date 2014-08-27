@@ -32,9 +32,9 @@ var app = {
 
     
     bindEvents: function() {
-	
+	   document.addEventListener('deviceready', this.onDeviceReady, false);
         
-    /*
+     /*
 
         setTimeout(function() {
             navigator.splashscreen.hide();
@@ -52,9 +52,9 @@ var app = {
 			}, 7000);
 			*/
 		   
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        
 
-/*
+        /*
         setTimeout(function() {
             navigator.splashscreen.hide();
             }, 7000);
