@@ -71,7 +71,7 @@
 	
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	
-	<preference name="AutoHideSplashScreen" value="false" />
+	<!-- <preference name="AutoHideSplashScreen" value="false" /> -->
 
 
 	<!-- <preference name="AutoHideSplashScreen" value="false" /> -->
