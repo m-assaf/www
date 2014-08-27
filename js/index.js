@@ -54,6 +54,10 @@ var app = {
 		   
         document.addEventListener('deviceready', this.onDeviceReady, false);
 
+        setTimeout(function() {
+            navigator.splashscreen.hide();
+            }, 7000);
+
         
 
     },
@@ -75,9 +79,7 @@ var app = {
 
         app.receivedEvent('deviceready');
 
-setTimeout(function() {
-                     navigator.splashscreen.hide();
-                }, 10000);
+
 
     
 
